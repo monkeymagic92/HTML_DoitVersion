@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <style>
+        a, a:active {
+            color: #222;
+            text-decoration: none;
+        }
+
+    </style>
+    
+</head>
+<body>
+   <img src="C:\html_study\html\images\03\kids.jpg" alt="애들" usemap="#favorites">
+   <map name="favorites">
+    <area shape="rect" coords="10,10,160,200" href="https://www.naver.com" alt="네이버">
+    <area shape="rect" coords="220,10,380,200" href="http://www.facebook.com" alt="안뜸말고"
+    target="_blank">    
+   </map>
+
+   <br>
+   <a href="https://www.naver.com" target="_blank"><h3>네이버 연결하기</h3></a>
+   <br><br>
+   <img src="C:\html_study\html\images\03\event.jpg" alt="" usemap="#eventMap">
+   <map name="eventMap">
+       <area shape="circle" coords="330,240,55" 
+       href="https://www.naver.com" alt="">
+
+       <area shape="rec" coords="40,770,650,1160" href="https://www.naver.com" target="_blank" alt="">
+       <!-- coords 는 사각형기준 첫 좌표2개  마지막 끝좌표 2개   -->
+   </map>
+
+   
+
+   <!-- SVG이미지 삽입 (확대해도 안깨지는 이미지) -->
+   <h1>아래는 SVG이미지</h1>
+   <img src="C:\html_study\html\images\03\muffin.svg" alt="">
+  
+</body>
+</html>
+
+
+<!-- (파일명 : href2Parent.html)
+1. 이미지넣기
+img src="사진속성주소/이름.jpg(png)" alt="사진안뜰경우 문구삽입"
+
+
+2. [하이퍼링크 걸기]
+<a href="https://(주소)">클릭시 이동하는 문구작성<\a>
+
+
+새창으로 링크열기
+a href target="_blank"
+<a href="(주소)" target="_blank">클릭<\a>
+
+
+2-1 [링크 클릭시] 새창으로 열기
+<a href="https://(주소)" target="_blank">
+
+
+2-2 하이퍼링크 [스타일] 관련
+<style>
+    a, a:visited {
+        color: #222;   - 글자색
+        text-decoration: none;  - 밑줄 제거
+    }
+<style>
+
+
+2-3 map = 하나의 이미지에 두개이상 링크를 다는 것
+    그림 영역지정할때에는 그림판 자르기기능(그림판 하단에 길이뜸)
+
+    map name ="(변수명, 아무거나)"
+    area shape="rec" - 사각형으로 나타내기 첫지점모서리 2값 
+                        대각선 끝지점 모서리 2값 -->

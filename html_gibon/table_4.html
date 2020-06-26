@@ -1,0 +1,58 @@
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>테이블 셀합치기 그리기</title>
+        <style>
+            table{border: 1px solid black;}
+            td, th{border: 1px solid black; width: 100px;}
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption><b>수업 시간표2 (쉘 합치기)</b></caption>
+            <tr>
+                <th>시간</th>
+                <th>월요일</th>
+                <th>화요일</th>
+                <th>수요일</th>
+                <th>목요일</th>
+            </tr>
+            <tr>
+                <th>1교시</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th rowspan="3">웹응용</th>
+            </tr>
+            <tr>
+                <th>2교시</th>
+                <th rowspan="2">웹프로그래밍</th>
+                
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>3교시</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>4교시</th>
+                <th></th>
+                <th colspan="2">자바스크립트</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>5교시</th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+           
+        </table>
+        
+    </body>
+</html>

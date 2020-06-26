@@ -1,0 +1,40 @@
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>라디오버튼, 체크박스 연습</title>
+    </head>
+    <body>
+        <h1>라디오버튼과 체크박스 삽입하기</h1>
+        <fieldset>
+            <legend>신청 과목</legend>
+            <label>
+                <input type="radio" name="subject" value="speaking">화학
+            </label>
+            <label>
+                <input type="radio" name="subject" value="speaking" checked>문법
+            </label>
+            <label>
+                <input type="radio" name="subject" value="speaking">작문
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>메일링</legend>
+            <p>메일로 받고 싶은 뉴스 주제 선택(복수선택 가능)</p>
+            <label>
+                <input type="checkbox" name="mailing1" value="news">해외단신
+            </label>
+            <label>
+                <input type="checkbox" name="mailing2" value="dialog" checked>5분화학
+            </label>
+            <label>
+                <input type="checkbox" name="mailing3" value="pops">모닝팝스
+            </label>
+        </fieldset>
+
+        <p>올해 과 티를 만들라한다 원하는 색 추천</p>
+        <label>선호색상 <input type="color" value="#00ff00"></label>
+        <input type="checkbox" name="mailing2" value="dialog">
+        
+    </body>
+</html>

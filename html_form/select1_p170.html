@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>select 연습</title>
+    <style>
+        legend { color: purple; font-weight: bold;}
+        label {color: green; font-weight: bold;}
+        ul { list-style-type: none;}
+        ul label { float: left; width: 50px;}
+        li {margin: 10px;}
+    </style>
+</head>
+<body>
+    <h1>여름방학 특강 신청</h1>
+    <fieldset>
+        <legend>수강신청인</legend>
+        <ul>
+            <li>
+                <label for="no">학번</label>
+                <input type="text" id="no">
+                
+            </li>
+            <li>
+                <label for="no">이름</label>
+                <input type="text" id="name">
+            </li>
+            <li>
+                <label for="class" class="reg">학과</label>
+                <select name="" id="class">
+                    <optgroup>
+                        <option value="archi">건축공학과</option>
+                        <option value="mechanic">기계공학과</option>
+                        <option value="indust">산업공학과</option>
+                        <option value="elec">전기전자공학과</option>
+                        <option value="computer" selected>컴퓨터공학과</option>
+                        <option value="chemical">화학공학과</option>
+                  </optgroup>
+                  <optgroup label="인문대학">
+                      <option value="">사학과</option>
+                      <option value="">어문학부</option>
+                      <option value="">철학</option>
+                  </optgroup>
+                </select>
+            </li>
+        </ul>
+        
+    </fieldset>
+</body>
+</html>

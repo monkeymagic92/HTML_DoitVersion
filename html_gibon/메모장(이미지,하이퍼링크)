@@ -1,0 +1,33 @@
+
+(파일명 : href2Parent.html)
+1. 이미지넣기
+img src="사진속성주소/이름.jpg(png)" alt="사진안뜰경우 문구삽입"
+
+
+2. [하이퍼링크 걸기]
+<a href="https://(주소)">클릭시 이동하는 문구작성<\a>
+
+
+새창으로 링크열기
+a href target="_blank"
+<a href="(주소)" target="_blank">클릭<\a>
+
+
+2-1 [링크 클릭시] 새창으로 열기
+<a href="https://(주소)" target="_blank">
+
+
+2-2 하이퍼링크 [스타일] 관련
+<style>
+    a, a:visited {
+        color: #222;   - 글자색
+        text-decoration: none;  - 밑줄 제거
+    }
+<style>
+
+
+2-3 map = 하나의 이미지에 두개이상 링크를 다는 것
+    그림 영역지정할때에는 그림판 자르기기능(그림판 하단에 길이뜸)
+
+    map name ="(변수명, 아무거나)"
+    area shape="rect" - 현재문서와 문서사이 관계
